@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create a button that, when clicked, changes the color of a text element on the page to red.</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <button id="btn1">Click</button>
+        <h1 id="txt1">Challenge 28</h1>
+
+        <script>
+            var button= document.getElementById("btn1");
+            var text= document.getElementById("txt1");
+
+             button.onclick= function(){
+             text.style.color="red";
+             text.style.backgroundColor="plum";
+             text.style.fontFamily = "Chalkboard, Comic Sans MS, cursive";
+             text.style.textAlign="center";
+             text.style.fontSize="100px";
+             text.style.padding="20px";
+             }
+        </script>
+    </body>
+</html>
